@@ -3,7 +3,11 @@ Repository combining resources to get started with Obsidian.
 
 [Obsidian](https://obsidian.md) is a note-taking application available for Windows, Mac OS and Linux that stands out in its fully customizibility throug the use of community plugins. Advertised as "your second brain", Obsidian is also enabling connecting notes, drawings, images, PDFs and more with each other, which is particularly helpful in broad projects, such as research projects. Tools, like the graph view (see below), can help keep track of your files and how connected they are with each other and with the themes/projects they correspond to. Obsidian can be intimidating and/or overwhelming at first due to the extent of plugins available. Through this repository, you will find ideas of steps to undertake to get started with Obsidian for a research academic purpose. No previous Python or coding skills required! (If you do know Python though, you will love this app even more)
 
-![Obsidian Graph](https://github.com/sherryoung/Obsidian_workshop/assets/43259290/e2fad925-12ca-4b50-a320-a3d7bdabd4d4)
+
+
+https://github.com/sherryoung/Obsidian_workshop/assets/43259290/b6fabf19-f865-47e4-97a8-cb6a6000a6f7
+
+
 
 
 _Disclaimer: the Obsidian community is highly active, including the developers of the platform. If you encounter any issues, you can go through https://help.obsidian.md/Home for anything related to the core Obsidian app, or through the specific plugin Github repository to ask questions. There is also an Obsidian Discord!_
