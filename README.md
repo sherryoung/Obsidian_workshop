@@ -15,11 +15,16 @@ _Disclaimer: the Obsidian community is highly active, including the developers o
 
 # 1. Installation
 
-1. Download (Obsidian)[https://obsidian.md]
-2. The vault (the equivalent of a repository) - You have a few options here:
-    a. **Create a vault**: find a name and a location for your vault. It can be located anywhere on your computer*. can do so by following the  instruction directly from the [Obsidian Help](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian).
-    b. **Open Folder as Vault**: if you already have a folder system in place that you would like to import to Obsidian, while maintaining the same structure, you can open this master folder as your new vault by selecting the Open Folder as Vault option. This can particularly be helpful if you want to use if you wish to later on backup your vault with **Github**. You can create a local repository through the GitHub Desktop application and open it as your vault for instance. To note, there is a Git plugin available through Obsidian to push updates to Github without going through the Github Desktop app. This will be explained later on in the _3. Community Plugins_.
-    c. **Sync** is the paid option for individuals who have various devices and wish to seemlessly sync their vaults across devices. _If you are a student and want to pay for this option, there is a student discount!_
+### Download (Obsidian)[https://obsidian.md]
+### Get started
+#### 1.Option: **Create a vault** 
+Find a name and a location for your vault. It can be located anywhere on your computer*. can do so by following the  instruction directly from the [Obsidian Help](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian).
+
+#### 2. Option: **Open Folder as Vault** 
+If you already have a folder system in place that you would like to import to Obsidian, while maintaining the same structure, you can open this master folder as your new vault by selecting the Open Folder as Vault option. This can particularly be helpful if you want to use if you wish to later on backup your vault with **Github**. You can create a local repository through the GitHub Desktop application and open it as your vault for instance. To note, there is a Git plugin available through Obsidian to push updates to Github without going through the Github Desktop app. This will be explained later on in the _3. Community Plugins_.
+
+#### **Sync**
+Sync is the paid option for individuals who have various devices and wish to seemlessly sync their vaults across devices. _If you are a student and want to pay for this option, there is a student discount!_
 
 
 # 2. Core Plugins
