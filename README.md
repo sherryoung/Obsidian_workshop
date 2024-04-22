@@ -5,7 +5,7 @@ Repository combining resources to get started with Obsidian.
 
 
 
-https://github.com/sherryoung/Obsidian_workshop/assets/43259290/b6fabf19-f865-47e4-97a8-cb6a6000a6f7
+https://github.com/sherryoung/Obsidian_workshop/assets/43259290/daef8bcb-35bc-4f2b-8316-1f25ddc876cd
 
 
 
