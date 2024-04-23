@@ -1,0 +1,157 @@
+---
+cssclass: dashboard
+banner: "![[E5D3B125-FCFC-417F-9CED-65C0976C0F18-1275-000000E4200087EC.jpg]]"
+banner_y: 0.8705
+---
+# HOME
+
+
+# Timeline
+
+
+> [!Important] CSEE
+>> | Event | Progress | Date | Comments |
+>> |----|---|---|---|
+>> | Registration | ✅ | March 11 | Abstract submitted as well |
+>> | [[Statistical Analyses]] | | | |
+>> | Preparation | | | | 
+
+> [!Bug] TA
+>> | Date     | Marked | Comments |
+>>| -------- | ------ | -------- |
+>>
+>>
+>>
+>>
+
+>[!Attention] Research
+> - [ ] Chapter 1: Land change in Central Tien Shan mountain. [[Manuscript Dump]]
+> 	- Rationale: Climate change impacts on 
+> - [ ] Chapter 2: Changes in elevational pattern of vegetation green up dates
+
+>[!Note] Hours
+> - [ ] Health and Safety Hours
+> 	- AQ-SH: Mar
+> 	- Sciences: Jan, Feb, Apr
+> 	- Vancouver: Jan (3), Feb (3), March (5-upload minutes), April (no meeting, 1 hour prep, 1 hour review)
+> 	- CUHSC: Jan, Feb, Mar,
+> 	- Investigation: 2 (30m each)
+> - [ ] 
+
+> [!Important] Literature Organization
+> - [ ] Satellite Imagery and Abiotic/Biotic
+> 	- MODIS
+> - [ ] Machine Learning and Camera traps
+> 	- [[Alison2023]]
+> 	- [[de Jonge 2022]]
+
+> [!example] Today's Notes  
+```dataview  
+Table tags, folder
+Where file.mtime >= date(today) - dur(1day)
+Limit 5
+```  
+
+
+>[!Recently Created]
+```dataview
+Table tags, folder
+Where file.ctime >= date(today) -dur(1 day)
+Limit 7
+```
+
+# Reference to Add
+```tasks
+not done
+(tags include #referencetoadd)
+limit 5
+```
+
+
+> [!todo] Pending Tasks  
+> ```tasks
+not done
+group by tags
+
+
+# Visualize my vault organization on Canvas
+
+### Home Folder
+```dataview
+LIST
+FROM "Home Folder"
+SORT ASC
+```
+### Journal
+This folder is the default folder to create Daily and Weekly notes
+#### Daily 
+```dataview
+LIST
+FROM "Journal/Daily"
+LIMIT 5
+SORT ASC
+```
+### Meetings
+All meetings related to academic work. The subfolders are based on the groups
+
+#### CWE
+```dataview
+LIST
+FROM "Meetings/CWE"
+LIMIT 5
+SORT ASC
+```
+#### Stats Beerz
+
+```dataview
+LIST
+FROM "Meetings/Stats Beerz"
+LIMIT 5
+SORT ASC
+```
+#### WildCo
+```dataview
+LIST
+FROM "Meetings/WildCo"
+LIMIT 5
+SORT ASC
+```
+#### TSSU
+
+```dataview
+LIST
+FROM "Meetings/TSSU"
+LIMIT 5
+SORT ASC
+```
+#### Other meetings
+
+```dataview
+LIST
+FROM "Meetings/Other Meetings"
+LIMIT 5
+SORT ASC
+```
+### Obsidian
+All the templates are located in the Template folder
+
+```dataview
+LIST
+FROM "Obsidian/Templates"
+LIMIT 5
+SORT ASC
+```
+
+# PhD Folder Organization
+
+## PhD Chapter 1
+Refer to the [[🔺MOC Chapter 1]] for more details. The current structure is:
+- 
+
+# Help 
+For any help, various Tutorials are available. Here is a list of them:
+```dataview
+TABLE 
+FROM "Home Folder" and #tuto  
+```
+
