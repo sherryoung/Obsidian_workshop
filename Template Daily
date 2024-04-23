@@ -1,0 +1,38 @@
+---
+title: Daily planner
+date: {{date}}
+meetings:
+sports:
+reading:
+music:
+writing:
+tags: daily
+---
+
+# What is on the menu today?
+##### Workday
+House Keeping: Link to today's day planner by using the Command.
+
+# Reading List
+
+```tasks
+path includes Reading List
+sort by filename
+group by tags
+group by priority
+```
+
+
+##### MOCS here for update
+```dataview
+TABLE 
+FROM #MOC
+```
+
+##### Writing
+
+##### Data Analysis
+
+
+
+I use this time to review what I have done earlier in the day and complete any tasks to prepare for the next day.
