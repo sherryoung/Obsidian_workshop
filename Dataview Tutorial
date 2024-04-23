@@ -1,0 +1,55 @@
+# Query examples using Dataview syntax
+
+Dataview is best used for notes that have tags as metadata.
+
+
+## List examples
+### Filter using one tag
+```dataview
+LIST
+FROM #tag
+```
+
+### Filter using two tags
+
+```dataview
+LIST
+From tag1 AND tag2
+```
+
+### Filter using either tag
+
+```dataview
+LIST
+FROM tag1 OR tag2
+```
+
+### Select all excluding one tag
+
+```dataview
+LIST
+FROM -Tag1
+```
+
+## Table examples
+
+```dataview
+TABLE authors, year, title
+FROM #tag
+```
+
+### Create a list of the five most recently updated notes today
+
+```dataview  
+Table tags, folder
+Where file.mtime >= date(today) - dur(1day)
+Limit 5
+```  
+### Create a list of the 7 most recently created notes
+
+```dataview
+Table tags, folder
+Where file.ctime >= date(today) -dur(1 day)
+Limit 7
+```
+
