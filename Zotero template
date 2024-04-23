@@ -1,0 +1,93 @@
+---
+authors: {{authors}}
+title: {{title}}
+year: {{date | format(“YYYY”)}} 
+Journal: {{publicationTitle}}
+Keywords: {% if allTags %}{{allTags}}{% endif %}
+project: 
+timeline: 
+date read: 
+methods: 
+status: 
+type:
+  - summary
+location: 
+---
+
+> [!tldr] Too long, didn't read
+> 
+
+> [!Abstract]  
+> {%- if abstractNote %}  
+> {{abstractNote}}  
+> {%- endif -%}.  
+
+
+> [!multi-column]
+>> [!question] _Question_
+>> - **Test**:
+>
+>> [!question] _Question_
+>> 
+
+
+> [!example] PACKAGES
+
+>[!faq] FAQ
+>
+
+>[!multi-column] References and topics
+>
+>> [!seealso] Topic
+>> - [ ] Author 
+>
+>> [!seealso] Topic
+>> - [ ] Author
+
+
+> [!Cite]  
+> {{bibliography}}  
+  
+
+> [!multi-column]
+>>[!md]  
+>>{% for type, creators in creators | groupby("creatorType") -%}  
+>>{%- for creator in creators -%}  
+>>{{"First" if loop.first}}{{type | capitalize}}::  
+>>{%- if creator.name %} {{creator.name}}  
+>> {%- else %} {{creator.lastName}}, {{creator.firstName}}  
+>>{%- endif %}  
+>>{% endfor %}~  
+>>{%- endfor %}  
+>> **Title**:: {{title}}
+>> **Year**:: {{date | format("YYYY")}}  
+>> **Citekey**:: {{citekey}} {%- if itemType %}  
+>> **itemType**:: {{itemType}}{%- endif %}{%- if itemType == "journalArticle" %}  
+>> **Journal**:: *{{publicationTitle}}* {%- endif %}{%- if volume %}  
+>> **Volume**:: {{volume}} {%- endif %}{%- if issue %}  
+>> **Issue**:: {{issue}} {%- endif %}{%- if itemType == "bookSection" %}  
+>> **Book**:: {{publicationTitle}} {%- endif %}{%- if publisher %}  
+>> **Publisher**:: {{publisher}} {%- endif %}{%- if place %}  
+>> **Location**:: {{place}} {%- endif %}{%- if pages %}  
+>> **Pages**:: {{pages}} {%- endif %}{%- if DOI %}  
+>> **DOI**:: {{DOI}} {%- endif %}{%- if ISBN %}  
+>> **ISBN**:: {{ISBN}} {%- endif %}  
+>
+>>[!Synth]  
+>**Related**:: {% for relation in relations | selectattr("citekey") %} [[@{{relation.citekey}}]]{% if not loop.last %}, {% endif%} {% endfor %}  
+>  
+  >
+>> [!LINK]  
+> {%- for attachment in attachments | filterby("path", "endswith", ".pdf") %}  
+> [{{attachment.title}}](file://{{attachment.path | replace(" ", "%20")}}) {%- endfor -%}.  
+  
+
+
+
+
+
+# Notes  
+> {%- if markdownNotes %}  
+>{{markdownNotes}}{%- endif -%}.  
+  
+  
