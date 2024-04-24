@@ -13,10 +13,11 @@ https://github.com/sherryoung/Obsidian_workshop/assets/43259290/daef8bcb-35bc-4f
 _Disclaimer: the Obsidian community is highly active, including the developers of the platform. If you encounter any issues, you can go through https://help.obsidian.md/Home for anything related to the core Obsidian app, or through the specific plugin Github repository to ask questions. There is also an Obsidian Discord!_
 
 
-# 1. Installation
+## 1. Installation
 
-### Download (Obsidian)[https://obsidian.md]
-### Get started
+Download (Obsidian)[https://obsidian.md]
+
+## 2. Set Up Obsidian
 #### 1.Option: **Create a vault** 
 Find a name and a location for your vault. It can be located anywhere on your computer*. can do so by following the  instruction directly from the [Obsidian Help](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian).
 
@@ -27,7 +28,7 @@ If you already have a folder system in place that you would like to import to Ob
 Sync is the paid option for individuals who have various devices and wish to seemlessly sync their vaults across devices. _If you are a student and want to pay for this option, there is a student discount!_
 
 
-# 2. Core Plugins
+# 3. Core Plugins
 
 Once you get into your vault, you can select the settings wheel at the bottom left corner. 
 
@@ -35,7 +36,7 @@ Once you get into your vault, you can select the settings wheel at the bottom le
 
 Scroll down to the core plugin tab. Core plugins are general options that can be disabled as you see fit. This is where you will be able to customize **backlinks** (hyperlinks connecting notes with each other), your file recovery options, enabling the graph view, workspaces and more. These are fairly basic but important to look at to understand how Obsidian works. The **hotkeys** are shortcuts for you to customize and use to make the use of Obsidian faster. 
 
-# 3. Community Plugins
+# 4. Community Plugins
 
 Below the Core plugin tab, you will find the Community Plugins. These plugins are created by passionate individuals who wish to make some tools available for Obsidian users. Most plugins are available on Github on their respective respositories. To start using community plugins, you will first need to _Turn on community plugins_. Once you did this, you can install your first community plugins.
 
