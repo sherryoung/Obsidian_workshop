@@ -19,7 +19,7 @@ Download (Obsidian)[https://obsidian.md]
 
 ## 2. Set Up Obsidian
 #### 1.Option: **Create a vault** 
-Find a name and a location for your vault. It can be located anywhere on your computer*. can do so by following the  instruction directly from the [Obsidian Help](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian).
+Find a name and a location for your vault. It can be located anywhere on your computer. You can do so by following the  instruction directly from the [Obsidian Help](https://help.obsidian.md/Getting+started/Download+and+install+Obsidian).
 
 #### 2. Option: **Open Folder as Vault** 
 If you already have a folder system in place that you would like to import to Obsidian, while maintaining the same structure, you can open this master folder as your new vault by selecting the Open Folder as Vault option. This can particularly be helpful if you want to use if you wish to later on backup your vault with **Github**. You can create a local repository through the GitHub Desktop application and open it as your vault for instance. To note, there is a Git plugin available through Obsidian to push updates to Github without going through the Github Desktop app. This will be explained later on in the _3. Community Plugins_.
